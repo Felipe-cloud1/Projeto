@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NivelSenioridade
+comment0.text=\r\n\ Representa\ o\ nivel\ de\ senioridade\ de\ um\ professor.\r\n\ A\ ordem\ de\ declaracao\ (JUNIOR,\ PLENO,\ SENIOR)\ eh\ usada\ diretamente\r\n\ para\ calcular\ prioridade\ em\ disputas\ de\ reserva\:\ quanto\ maior\ o\r\n\ ordinal(),\ maior\ a\ prioridade.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=descricao
+comment1.target=NivelSenioridade(java.lang.String)
+comment2.params=outro
+comment2.target=boolean\ temPrioridadeSobre(NivelSenioridade)
+comment2.text=\r\n\ Compara\ a\ prioridade\ deste\ nivel\ com\ outro.\r\n\ @param\ outro\ o\ nivel\ a\ comparar\r\n\ @return\ true\ se\ este\ nivel\ tem\ prioridade\ maior\ que\ o\ outro\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescricao()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

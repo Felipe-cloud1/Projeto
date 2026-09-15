@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PainelIndisponibilidades
+comment0.text=\r\n\ Painel\ (aba)\ de\ cadastro\ de\ indisponibilidades\ programadas\r\n\ (manutencao/reforma),\ que\ podem\ se\ aplicar\ a\ uma\ sala\ especifica\r\n\ ou\ a\ um\ bloco\ geografico\ inteiro.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sistema\ janelaPrincipal
+comment1.target=PainelIndisponibilidades(SistemaReservas,\ JanelaPrincipal)
+comment2.params=
+comment2.target=void\ montarInterface()
+comment3.params=linha\ coluna
+comment3.target=boolean\ isCellEditable(int,\ int)
+comment4.params=
+comment4.target=void\ cadastrarIndisponibilidade()
+comment5.params=
+comment5.target=void\ atualizarCombosEListagem()
+comment5.text=\r\n\ Atualiza\ o\ combo\ de\ salas\ e\ a\ tabela\ de\ indisponibilidades.\r\n
+numComments=6

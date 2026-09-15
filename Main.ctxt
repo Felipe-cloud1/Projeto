@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Ponto\ de\ entrada\ da\ aplicacao.\ No\ BlueJ,\ esta\ classe\ tambem\ pode\r\n\ ser\ ignorada\ e\ a\ interface\ pode\ ser\ aberta\ diretamente\ criando\ um\r\n\ objeto\ JanelaPrincipal\ (passando\ um\ SistemaReservas)\ e\ chamando\r\n\ setVisible(true)\ pelo\ menu\ de\ contexto\ do\ objeto.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

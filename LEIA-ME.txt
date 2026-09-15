@@ -1,0 +1,78 @@
+SISTEMA DE GERENCIAMENTO E RESERVA DE SALAS UNIVERSITARIAS
+=============================================================
+
+COMO ABRIR NO BLUEJ
+--------------------
+1. Abra o BlueJ.
+2. Menu Project > Open Project...
+3. Selecione a pasta "SistemaReservas" (esta pasta).
+4. O diagrama de classes deve aparecer automaticamente, com as
+   21 classes organizadas em grade.
+5. Menu Project > Compile (ou clique no botao "Compile") para
+   compilar tudo. As setas de dependencia (uses/depends) vao
+   aparecer automaticamente apos a compilacao.
+
+COMO EXECUTAR A INTERFACE GRAFICA
+-----------------------------------
+Existem duas formas:
+
+OPCAO A (mais simples): clique com o botao direito na classe
+"Main" no diagrama e selecione "void main(String[] args)".
+Isso abre a janela do sistema com todas as abas.
+
+OPCAO B (explorando objetos manualmente, util para os testes de
+protocolo do BlueJ):
+1. Clique com o botao direito em "SistemaReservas" > new
+   SistemaReservas() -> isso cria um objeto na bancada de objetos.
+2. Clique com o botao direito em "JanelaPrincipal" > new
+   JanelaPrincipal(SistemaReservas sistema) -> quando pedir o
+   parametro, arraste o objeto SistemaReservas criado no passo
+   anterior (ou digite o nome dele, ex: sistemaReservas1).
+3. Clique com o botao direito no objeto JanelaPrincipal criado >
+   selecione o metodo "setVisible(boolean b)" e informe "true".
+4. A janela sera exibida com as abas: Salas, Professores,
+   Reservas, Indisponibilidades e Status das Salas.
+
+ORDEM SUGERIDA DE USO NA INTERFACE
+------------------------------------
+1. Aba "Salas": cadastre algumas salas (ex: CA01, CB02, CV01).
+2. Aba "Professores": cadastre professores com departamento e
+   nivel (ex: Junior, Pleno, Senior). Para testar a restricao do
+   Bloco V, cadastre ao menos um professor com departamento
+   "CALEM" e outro com departamento diferente.
+3. Aba "Reservas": escolha sala, professor, dia e horario (grade
+   institucional fixa) e clique em "Reservar".
+   - Tente reservar uma sala "CVxx" com um professor que NAO seja
+     do CALEM: o sistema deve recusar.
+   - Tente reservar o mesmo horario/sala com dois professores de
+     senioridade diferente: o de maior nivel toma a sala do menor.
+4. Aba "Indisponibilidades": cadastre um bloqueio de manutencao
+   para uma sala especifica ou para um bloco inteiro (ex: bloco
+   "E"), informando datas no formato dd/mm/aaaa.
+5. Aba "Status das Salas": escolha um dia e horario e clique em
+   "Consultar". A tabela mostra TODAS as salas cadastradas (nada
+   fica oculto), coloridas por status:
+   - verde = livre
+   - laranja = ocupada (mostra por quem)
+   - vermelho = indisponivel (mostra o motivo)
+
+ESTRUTURA DE CLASSES (RESUMO)
+--------------------------------
+Modelo:
+  NivelSenioridade (enum), DiaSemana (enum), Horario (enum)
+  Professor, Sala, Reserva, Indisponibilidade
+  ResultadoValidacao, StatusSala
+
+Regras de negocio (padrao Strategy, interface RegraDeReserva):
+  RegraRestricaoBlocoV
+  RegraConflitoHorario (aplica a prioridade por senioridade)
+  RegraIndisponibilidade
+
+Controlador:
+  SistemaReservas (mantem as colecoes e aplica as regras)
+
+Interface grafica (Swing):
+  JanelaPrincipal (JFrame com JTabbedPane)
+  PainelSalas, PainelProfessores, PainelReservas,
+  PainelIndisponibilidades, PainelStatusSalas
+  Main (ponto de entrada, opcional no fluxo do BlueJ)

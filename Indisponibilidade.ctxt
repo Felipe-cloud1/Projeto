@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Indisponibilidade
+comment0.text=\r\n\ Representa\ um\ periodo\ de\ indisponibilidade\ programada\ (ex\:\ reforma\r\n\ ou\ manutencao)\ que\ pode\ se\ aplicar\ a\ uma\ sala\ especifica\ ou\ a\ um\r\n\ bloco\ geografico\ inteiro.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=codigoSala\ motivo\ dataInicio\ dataFim
+comment1.target=Indisponibilidade\ paraSala(java.lang.String,\ java.lang.String,\ java.time.LocalDate,\ java.time.LocalDate)
+comment1.text=\r\n\ Cria\ uma\ indisponibilidade\ para\ uma\ sala\ especifica.\r\n
+comment2.params=bloco\ motivo\ dataInicio\ dataFim
+comment2.target=Indisponibilidade\ paraBloco(java.lang.String,\ java.lang.String,\ java.time.LocalDate,\ java.time.LocalDate)
+comment2.text=\r\n\ Cria\ uma\ indisponibilidade\ para\ um\ bloco\ geografico\ inteiro.\r\n
+comment3.params=sala\ data
+comment3.target=boolean\ afetaSala(Sala,\ java.time.LocalDate)
+comment3.text=\r\n\ Verifica\ se\ esta\ indisponibilidade\ se\ aplica\ a\ sala\ informada,\r\n\ na\ data\ informada.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getMotivo()
+comment5.params=
+comment5.target=java.time.LocalDate\ getDataInicio()
+comment6.params=
+comment6.target=java.time.LocalDate\ getDataFim()
+comment7.params=
+comment7.target=boolean\ isParaBlocoInteiro()
+comment8.params=
+comment8.target=java.lang.String\ getAlvo()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RegraIndisponibilidade
+comment0.text=\r\n\ Regra\ de\ negocio\:\ impede\ reservas\ em\ salas\ (ou\ blocos\ inteiros)\r\n\ que\ estejam\ marcados\ como\ indisponiveis\ por\ manutencao/reforma\r\n\ programada,\ considerando\ a\ data\ atual\ do\ sistema.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sala\ professor\ dia\ horario\ sistema
+comment1.target=ResultadoValidacao\ validar(Sala,\ Professor,\ DiaSemana,\ Horario,\ SistemaReservas)
+numComments=2

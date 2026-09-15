@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PainelStatusSalas
+comment0.text=\r\n\ Painel\ (aba)\ de\ consulta\ do\ status\ das\ salas\ para\ um\ dia/horario\r\n\ escolhidos.\ Exibe\ TODAS\ as\ salas\ cadastradas\ (livres,\ ocupadas\ e\r\n\ indisponiveis),\ conforme\ a\ regra\ de\ visibilidade\ do\ sistema,\ com\r\n\ o\ motivo\ detalhado\ para\ as\ que\ nao\ estao\ livres.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sistema
+comment1.target=PainelStatusSalas(SistemaReservas)
+comment2.params=
+comment2.target=void\ montarInterface()
+comment3.params=linha\ coluna
+comment3.target=boolean\ isCellEditable(int,\ int)
+comment4.params=
+comment4.target=void\ consultar()
+comment5.params=
+comment5.target=void\ atualizarCombos()
+comment5.text=\r\n\ Atualiza\ os\ combos\ de\ dia/horario\ (nao\ mudam,\ mas\ mantido\ por\r\n\ padronizacao\ com\ os\ demais\ paineis)\ e\ reconsulta\ o\ status.\r\n
+numComments=6

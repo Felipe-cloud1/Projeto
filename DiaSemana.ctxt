@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DiaSemana
+comment0.text=\r\n\ Representa\ os\ dias\ da\ semana\ em\ que\ ha\ aulas\ na\ instituicao.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=descricao
+comment1.target=DiaSemana(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDescricao()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=StatusSala
+comment0.text=\r\n\ Representa\ o\ status\ de\ uma\ sala\ em\ uma\ consulta\ de\ disponibilidade\r\n\ (dia\ +\ horario\ especificos)\:\ se\ esta\ livre,\ ocupada\ ou\ indisponivel,\r\n\ junto\ com\ o\ detalhe/motivo.\ Usada\ para\ preencher\ a\ tabela\ de\ status\r\n\ na\ interface\ grafica,\ garantindo\ que\ nenhuma\ sala\ seja\ ocultada.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sala\ status\ detalhe
+comment1.target=StatusSala(Sala,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=Sala\ getSala()
+comment3.params=
+comment3.target=java.lang.String\ getStatus()
+comment4.params=
+comment4.target=java.lang.String\ getDetalhe()
+numComments=5

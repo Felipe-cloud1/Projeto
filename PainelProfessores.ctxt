@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PainelProfessores
+comment0.text=\r\n\ Painel\ (aba)\ de\ cadastro\ e\ listagem\ de\ professores.\ Contem\ um\r\n\ formulario\ (nome,\ matricula,\ departamento,\ nivel)\ e\ uma\ tabela\r\n\ com\ todos\ os\ professores\ cadastrados.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sistema\ janelaPrincipal
+comment1.target=PainelProfessores(SistemaReservas,\ JanelaPrincipal)
+comment2.params=
+comment2.target=void\ montarInterface()
+comment3.params=linha\ coluna
+comment3.target=boolean\ isCellEditable(int,\ int)
+comment4.params=
+comment4.target=void\ cadastrarProfessor()
+comment5.params=
+comment5.target=void\ atualizarListagem()
+comment5.text=\r\n\ Atualiza\ a\ tabela\ de\ professores\ com\ os\ dados\ atuais\ do\ sistema.\r\n
+numComments=6

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Professor
+comment0.text=\r\n\ Representa\ um\ professor\ cadastrado\ no\ sistema,\ com\ seus\ dados\r\n\ institucionais\ e\ nivel\ de\ senioridade\ (usado\ para\ prioridade\ em\r\n\ disputas\ de\ reserva\ de\ sala).\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=nome\ matricula\ departamento\ nivel
+comment1.target=Professor(java.lang.String,\ java.lang.String,\ java.lang.String,\ NivelSenioridade)
+comment1.text=\r\n\ Cria\ um\ novo\ professor.\r\n\ @param\ nome\ nome\ completo\ do\ professor\r\n\ @param\ matricula\ matricula\ (identificador\ unico)\ do\ professor\r\n\ @param\ departamento\ departamento\ ao\ qual\ o\ professor\ pertence\r\n\ @param\ nivel\ nivel\ de\ senioridade\ (Junior,\ Pleno\ ou\ Senior)\r\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=java.lang.String\ getMatricula()
+comment4.params=
+comment4.target=java.lang.String\ getDepartamento()
+comment5.params=
+comment5.target=NivelSenioridade\ getNivel()
+comment6.params=
+comment6.target=boolean\ pertenceAoCalem()
+comment6.text=\r\n\ @return\ true\ se\ o\ professor\ pertence\ ao\ departamento\ CALEM\r\n\ \ \ \ \ \ \ \ \ (linguas\ estrangeiras),\ unico\ autorizado\ a\ reservar\r\n\ \ \ \ \ \ \ \ \ salas\ do\ Bloco\ V.\r\n
+comment7.params=outro
+comment7.target=int\ compareTo(Professor)
+comment7.text=\r\n\ Compara\ professores\ pela\ senioridade\ (usado\ para\ ordenacao\ em\r\n\ listas\ de\ prioridade).\ Senior\ >\ Pleno\ >\ Junior.\r\n
+comment8.params=obj
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=int\ hashCode()
+numComments=11

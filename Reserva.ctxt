@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Reserva
+comment0.text=\r\n\ Representa\ uma\ reserva\ confirmada\ de\ uma\ sala,\ para\ um\ professor,\r\n\ em\ um\ dia\ da\ semana\ e\ bloco\ de\ horario\ especificos.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sala\ professor\ dia\ horario
+comment1.target=Reserva(Sala,\ Professor,\ DiaSemana,\ Horario)
+comment2.params=
+comment2.target=Sala\ getSala()
+comment3.params=
+comment3.target=Professor\ getProfessor()
+comment4.params=
+comment4.target=DiaSemana\ getDia()
+comment5.params=
+comment5.target=Horario\ getHorario()
+comment6.params=outraSala\ outroDia\ outroHorario
+comment6.target=boolean\ ocupaMesmoEspacoTempo(Sala,\ DiaSemana,\ Horario)
+comment6.text=\r\n\ Verifica\ se\ esta\ reserva\ ocupa\ a\ mesma\ combinacao\ de\ sala,\r\n\ dia\ e\ horario\ que\ outra\ (ou\ seja,\ se\ ha\ choque\ de\ agenda).\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

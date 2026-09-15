@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=RegraDeReserva
+comment0.text=\r\n\ Contrato\ para\ uma\ regra\ de\ negocio\ aplicada\ no\ momento\ de\ uma\r\n\ tentativa\ de\ reserva.\ Cada\ regra\ institucional\ (restricao\ de\r\n\ bloco,\ conflito\ de\ horario,\ indisponibilidade\ por\ manutencao...)\r\n\ eh\ implementada\ como\ uma\ classe\ separada,\ permitindo\ que\ o\r\n\ SistemaReservas\ aplique\ todas\ elas\ de\ forma\ uniforme\ e\ que\ novas\r\n\ regras\ sejam\ adicionadas\ sem\ alterar\ as\ classes\ existentes.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sala\ professor\ dia\ horario\ sistema
+comment1.target=ResultadoValidacao\ validar(Sala,\ Professor,\ DiaSemana,\ Horario,\ SistemaReservas)
+comment1.text=\r\n\ Valida\ se\ a\ reserva\ pretendida\ respeita\ esta\ regra.\r\n\r\n\ @param\ sala\ a\ sala\ pretendida\r\n\ @param\ professor\ o\ professor\ que\ deseja\ reservar\r\n\ @param\ dia\ o\ dia\ da\ semana\ pretendido\r\n\ @param\ horario\ o\ bloco\ de\ horario\ pretendido\r\n\ @param\ sistema\ referencia\ ao\ sistema,\ para\ consultar\ reservas\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ e\ indisponibilidades\ ja\ existentes\r\n\ @return\ um\ ResultadoValidacao\ indicando\ se\ a\ reserva\ pode\r\n\ \ \ \ \ \ \ \ \ prosseguir\ e,\ caso\ nao\ possa,\ o\ motivo\r\n
+numComments=2

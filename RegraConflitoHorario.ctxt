@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RegraConflitoHorario
+comment0.text=\r\n\ Regra\ de\ negocio\:\ impede\ que\ duas\ reservas\ ocupem\ a\ mesma\ sala,\r\n\ no\ mesmo\ dia\ da\ semana\ e\ no\ mesmo\ bloco\ de\ horario.\ Caso\ ja\ exista\r\n\ uma\ reserva\ no\ espaco/tempo\ pretendido,\ a\ regra\ so\ permite\ a\ nova\r\n\ reserva\ se\ o\ professor\ solicitante\ tiver\ senioridade\ maior\ que\ o\r\n\ professor\ que\ ja\ ocupa\ o\ horario\ (prioridade\ por\ senioridade).\r\n\ Quando\ isso\ ocorre,\ o\ SistemaReservas\ eh\ responsavel\ por\ substituir\r\n\ a\ reserva\ antiga\ pela\ nova.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sala\ professor\ dia\ horario\ sistema
+comment1.target=ResultadoValidacao\ validar(Sala,\ Professor,\ DiaSemana,\ Horario,\ SistemaReservas)
+numComments=2

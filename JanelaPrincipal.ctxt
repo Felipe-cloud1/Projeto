@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=JanelaPrincipal
+comment0.text=\r\n\ Janela\ principal\ da\ aplicacao.\ Organiza\ as\ funcionalidades\ do\r\n\ sistema\ em\ abas\ (JTabbedPane)\:\ Salas,\ Professores,\ Reservas,\r\n\ Indisponibilidades\ e\ Status\ das\ Salas.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sistema
+comment1.target=JanelaPrincipal(SistemaReservas)
+comment2.params=
+comment2.target=void\ montarInterface()
+comment3.params=
+comment3.target=void\ atualizarTudo()
+comment3.text=\r\n\ Atualiza\ os\ combos/listas\ de\ todos\ os\ paineis\ que\ dependem\ de\r\n\ salas,\ professores,\ reservas\ ou\ indisponibilidades.\ Chamado\r\n\ sempre\ que\ um\ cadastro\ eh\ alterado\ em\ qualquer\ aba.\r\n
+numComments=4

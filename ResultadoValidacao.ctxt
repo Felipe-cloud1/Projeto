@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ResultadoValidacao
+comment0.text=\r\n\ Representa\ o\ resultado\ de\ uma\ validacao\ de\ regra\ de\ negocio\:\r\n\ se\ passou\ (valido)\ e,\ caso\ nao\ tenha\ passado,\ o\ motivo.\r\n\ Tambem\ eh\ reaproveitada\ para\ expressar\ o\ status\ de\ uma\ sala\r\n\ (livre/ocupada/indisponivel)\ na\ consulta\ de\ disponibilidade.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=valido\ motivo
+comment1.target=ResultadoValidacao(boolean,\ java.lang.String)
+comment2.params=
+comment2.target=ResultadoValidacao\ ok()
+comment2.text=\r\n\ @return\ um\ resultado\ de\ validacao\ positivo\ (sem\ restricoes)\r\n
+comment3.params=motivo
+comment3.target=ResultadoValidacao\ falha(java.lang.String)
+comment3.text=\r\n\ @return\ um\ resultado\ de\ validacao\ negativo,\ com\ o\ motivo\ informado\r\n
+comment4.params=
+comment4.target=boolean\ isValido()
+comment5.params=
+comment5.target=java.lang.String\ getMotivo()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

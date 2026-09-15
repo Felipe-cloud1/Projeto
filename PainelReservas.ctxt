@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PainelReservas
+comment0.text=\r\n\ Painel\ (aba)\ de\ reservas.\ Permite\ selecionar\ sala,\ professor,\ dia\r\n\ e\ horario\ atraves\ de\ combos,\ tentar\ efetuar\ a\ reserva\ (aplicando\r\n\ todas\ as\ regras\ de\ negocio)\ e\ visualizar\ as\ reservas\ ja\ efetuadas.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sistema\ janelaPrincipal
+comment1.target=PainelReservas(SistemaReservas,\ JanelaPrincipal)
+comment2.params=
+comment2.target=void\ montarInterface()
+comment3.params=linha\ coluna
+comment3.target=boolean\ isCellEditable(int,\ int)
+comment4.params=
+comment4.target=void\ efetuarReserva()
+comment5.params=
+comment5.target=void\ atualizarCombos()
+comment5.text=\r\n\ Atualiza\ os\ combos\ de\ sala\ e\ professor\ com\ os\ cadastros\ atuais.\r\n
+comment6.params=
+comment6.target=void\ atualizarListagem()
+comment6.text=\r\n\ Atualiza\ a\ tabela\ de\ reservas\ efetuadas.\r\n
+numComments=7

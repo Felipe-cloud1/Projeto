@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RegraRestricaoBlocoV
+comment0.text=\r\n\ Regra\ de\ negocio\:\ salas\ do\ Bloco\ V\ (codigo\ iniciado\ em\ "CV")\ sao\r\n\ de\ uso\ exclusivo\ do\ departamento\ CALEM\ (linguas\ estrangeiras).\r\n\ Professores\ de\ outros\ departamentos\ nao\ podem\ reserva-las.\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=sala\ professor\ dia\ horario\ sistema
+comment1.target=ResultadoValidacao\ validar(Sala,\ Professor,\ DiaSemana,\ Horario,\ SistemaReservas)
+numComments=2

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Sala
+comment0.text=\r\n\ Representa\ uma\ sala\ da\ instituicao.\ O\ codigo\ da\ sala\ segue\ o\r\n\ formato\ obrigatorio\ "SBNN"\:\r\n\ \ \ S\ \=\ Sede,\ sempre\ a\ letra\ 'C'\ (Centro)\r\n\ \ \ B\ \=\ Bloco,\ letra\ de\ 'A'\ a\ 'V'\r\n\ \ \ NN\ \=\ numero\ da\ sala,\ dois\ digitos\ de\ '00'\ a\ '09'\r\n\r\n\ @author\ Sistema\ de\ Reservas\r\n
+comment1.params=codigo\ descricao
+comment1.target=Sala(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Cria\ uma\ nova\ sala,\ validando\ o\ formato\ do\ codigo.\r\n\ @param\ codigo\ codigo\ no\ formato\ CBNN\ (ex\:\ "CA07")\r\n\ @param\ descricao\ descricao\ livre\ da\ sala\ (ex\:\ "Laboratorio\ de\ Informatica")\r\n\ @throws\ IllegalArgumentException\ se\ o\ codigo\ nao\ seguir\ o\ padrao\ SBNN\r\n\ \ \ \ \ \ \ \ \ ou\ se\ o\ numero\ da\ sala\ nao\ estiver\ entre\ 00\ e\ 09\r\n
+comment2.params=codigo
+comment2.target=boolean\ isCodigoValido(java.lang.String)
+comment2.text=\r\n\ Valida\ se\ um\ codigo\ de\ sala\ segue\ o\ padrao\ institucional\ SBNN.\r\n\ @param\ codigo\ o\ codigo\ a\ validar\r\n\ @return\ true\ se\ o\ codigo\ eh\ valido\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCodigo()
+comment4.params=
+comment4.target=java.lang.String\ getDescricao()
+comment5.params=
+comment5.target=java.lang.String\ getBloco()
+comment5.text=\r\n\ @return\ a\ letra\ do\ bloco\ geografico\ da\ sala\ (ex\:\ "V"\ em\ "CV03")\r\n
+comment6.params=
+comment6.target=boolean\ isBlocoV()
+comment6.text=\r\n\ @return\ true\ se\ a\ sala\ pertence\ ao\ Bloco\ V\ (restrito\ ao\ CALEM)\r\n
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=int\ hashCode()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
